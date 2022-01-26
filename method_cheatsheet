@@ -1,0 +1,10 @@
+forEach((element, index, array) => do something)
+
+map((element, index, array) => element modification)
+   returns modified copy of array
+
+filter((element, index, array) => return true/false)
+   returns an array of elements that pass as true
+
+reduce((accumulator, current) => acc modified by cur, initial acc value)
+   returns accumulator
